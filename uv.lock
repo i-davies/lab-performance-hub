@@ -487,6 +487,7 @@ source = { editable = "." }
 dependencies = [
     { name = "fastapi" },
     { name = "locust" },
+    { name = "pytest" },
     { name = "uvicorn" },
 ]
 
@@ -494,6 +495,7 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", specifier = ">=0.143.0" },
     { name = "locust", specifier = ">=2.46.7" },
+    { name = "pytest", specifier = ">=9.1.1" },
     { name = "uvicorn", specifier = ">=0.54.0" },
 ]
 
